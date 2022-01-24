@@ -1,3 +1,6 @@
-aiogram~=2.13
-environs~=9.3.2
-sqlalchemy~=1.4.15
+aiogram
+environs
+sqlalchemy
+psycopg2
+pandas
+xlrd
