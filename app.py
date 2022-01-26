@@ -8,6 +8,7 @@ from utils.set_bot_commands import set_default_commands
 
 
 async def on_startup(dispatcher):
+    # Создаем базу данных
     try:
         create_db()
     except:
