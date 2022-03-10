@@ -1,5 +1,4 @@
 from sqlalchemy.sql import ClauseElement
-
 from data.models import Base
 from data.config import ENGINE, DB_NAME, CREATEBDENGINE
 
@@ -37,5 +36,3 @@ def create_db():
         connection.execute("commit")
         connection.execute("CREATE DATABASE " + DB_NAME)
     connection.close()
-
-#create_tables()
